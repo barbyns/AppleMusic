@@ -1,9 +1,0 @@
-/* Sidebar.css */
-.nav-link.active {
-    background-color: #333;
-    border-radius: 0.5rem;
-  }
-  .nav-link:hover {
-    background-color: #444;
-  }
-  
