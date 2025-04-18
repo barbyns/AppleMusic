@@ -2,6 +2,12 @@ import { useState } from 'react'
 import { BrowserRouter,Router, Routes, Route } from 'react-router-dom'
 import Sidebar from './components/Sidebar'
 import './App.css'
+import Topbar from './components/Topbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
+
+
 
 function App() {
 
@@ -14,9 +20,7 @@ function App() {
         <Topbar/>
         <main className='p-4'>
           <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/novità" element={<Novità/>}/>
-            <Route path="/radio" element={<Radio/>}/>
+
           </Routes>
         </main>
       </div>
